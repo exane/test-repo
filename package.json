@@ -5,13 +5,15 @@
   "main": "index.js",
   "scripts": {
     "gulp": "gulp",
-	"app": "node build/app"
+    "app": "node build/app",
+    "clear": "rm old -rf && rm _fume_tmp -rf"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "browserify": "^13.0.0",
     "gulp": "^3.9.0",
-    "vinyl-source-stream": "^1.1.0"
+    "vinyl-source-stream": "^1.1.0",
+    "fs-extra": "*"
   }
 }
