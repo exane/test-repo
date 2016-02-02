@@ -6,7 +6,7 @@
   "scripts": {
     "gulp": "gulp",
     "app": "node build/app",
-    "clear": "rm old -rf && rm _fume_tmp -rf"
+    "clear": "rm .fume -rf && rm .fume.tmp -rf"
   },
   "author": "",
   "license": "ISC",
