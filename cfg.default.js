@@ -1,3 +1,3 @@
-module.exports = {
-  key: "PUT YOUR KEY HERE"
+{
+  "key": "PUT YOUR KEY HERE"
 }

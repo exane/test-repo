@@ -1,4 +1,7 @@
-var importantConfigFile = require("../config/cfg.js");
+
+var fs = require("fs");
+
+var importantConfigFile = JSON.parse(fs.readFileSync("./config/cfg.js", 'utf-8'));
 
 
 var fib = function(n) {
