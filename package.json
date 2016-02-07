@@ -9,7 +9,7 @@
     "clear": "rm .fume -rf && rm .fume.tmp -rf"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "gulp": "^3.9.0",
     "fume-deploy": "*"
