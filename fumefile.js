@@ -1,7 +1,7 @@
 var fume = require("fume-deploy");
 
-fume.ignore("./config");
-fume.ignore("./SECRET_TEXT.txt");
+fume.keep("./config");
+fume.keep("./SECRET_TEXT.txt");
 
 fume.options.tempfolder = ".fume.tmp";
 fume.options.backupfolder = ".fume";
